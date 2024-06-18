@@ -1,4 +1,5 @@
-import {Search} from "lucide-react";
+import {Heart, HeartPulse, Search, Soup} from "lucide-react";
+import RecipeCard from "../components/RecipeCard.jsx";
 
 const HomePage = () => {
     return (
@@ -21,12 +22,10 @@ const HomePage = () => {
                 <div className='grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
 
                     {/* 1st recipe */}
-                    <div className='flex flex-col rounded-md bg-[#ecf7d4] overflow-hidden p-3 relative'>
-                        <a className='relative h-32' href='#'>
-                            <img src='/1.jpg' alt='recipe img' className='rounded-md w-full h-full object-cover cursor-pointer'/>
-                            <div></div>
-                        </a>
-                    </div>
+                    <RecipeCard />
+                    <RecipeCard />
+                    <RecipeCard />
+                    <RecipeCard />
                 </div>
             </div>
         </div>
