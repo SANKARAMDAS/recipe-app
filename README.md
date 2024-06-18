@@ -4,7 +4,7 @@ Search option available + can make favourite + onclick on any recipe it will red
 
 Fully responsive
 
-For more check the like- 
+For more check the like- https://recipe-app-olive-pi.vercel.app/
 
 # User manual - 
 1. clone it
